@@ -1,11 +1,13 @@
 # Strategic Discovery Map
 
-> **Module 1 · Lab 1.** Repo file `01-product-thinking/strategic-map.md` — part of your submission.
-> Do the lab in the **Module 1 · Exercise 1 Guide** (linked from the Module 1 deck), then click **⬇ Download .md** — it saves as this exact file. Commit it here.
-> It's the discovery groundwork behind your `problem-hook.md`.
+- **Undefendable feature.:**  
+  **Fleet Analytics Manager View.** It may be useful for executives, but based on the evidence gathered so far, it does not address the frontline speed, trust, or workflow issues driving adoption decline and churn risk. I could not defend it as a near-term priority against the Velocity objective.
 
-## Responses
+- **Vanity feature:**  
+  **Contextual AI ETA Display.** It sounds directionally appropriate for a logistics platform, but the available evidence does not show that ETA prediction is the core problem users are trying to solve. Without stronger user demand, adoption evidence, or a clear link to retention or revenue, it is feature logic rather than strategy.
 
-- **Feature with no strategic answer (why is this a 12-week priority?):** _(not filled in)_
-- **Feature that looks "correct" but has zero strategic weight:** _(not filled in)_
-- **V3 vs your Step 1 baseline — what changed, and was it your PM knowledge that forced usefulness?:** _(not filled in)_
+- **V1 vs. V3 Analysis:**  
+  V3 became much more focused on the actual job-to-be-done: helping frontline coordinators make fast, reliable operational decisions. The feature list moved away from broad capability-building toward interventions tied to specific evidence, measurable friction, retention risk, and effort. The AI did not become inherently smarter; the quality improved because the PM inputs became sharper. Adding JTBD, effort vs. impact, user evidence, and business outcomes constrained the AI to produce strategically relevant output instead of a generic feature list.
+
+- **Key takeaway:**  
+  AI can generate options quickly, but it cannot independently determine which problem deserves investment, which trade-offs are acceptable, or which metric matters to the business. The PM provides the judgment: defining the problem, setting strategic constraints, challenging weak assumptions, and deciding what not to build. AI accelerates synthesis and execution; the PM remains accountable for direction, prioritization, and the quality of the decision.
