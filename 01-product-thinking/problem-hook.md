@@ -1,53 +1,78 @@
-# Problem Hook & Value Proposition: [StreamLine / RouteLogic / your initiative]
+# Problem Hook & Value Proposition: RouteLogic Velocity
 
-> **Module 1 · ★ Deliverable 1.** Repo file `01-product-thinking/problem-hook.md` — part of your submission.
-> Do the lab in the **Module 1 · Exercise 2 Guide** (linked from the Module 1 deck), then click **⬇ Download .md** — it saves as this exact file. Commit it here.
-> It becomes the **Problem, Value & Hypothesis** slide of your Module 6 final deck. (Your Module 1 · Exercise 1 discovery map lands in `strategic-map.md`.)
+> Repo file: `01-product-thinking/problem-hook.md`
 
-## 1. Chosen scenario
-
-**Path:** _StreamLine Spotlight (B2C) · RouteLogic Velocity (B2B) · my own initiative_
-
-_One line on why you picked it._
+---
 
 ## 2. The strategic crisis
 
-_The big-picture business risk. If the company does nothing for 12 months, what happens to its market position?_
+RouteLogic became powerful by expanding into an all-in-one logistics platform, but that expansion has created a widening gap between enterprise capability and frontline usability.
 
-> If we do nothing for 12 months, the company will…
+Daily operational users are increasingly experiencing RouteLogic as slow, complex, and difficult to trust during time-sensitive fleet decisions. User research also shows active consideration of simpler competitors, while manual workarounds are becoming part of normal operations.
+
+> **If we do nothing for 12 months, RouteLogic risks losing enterprise accounts not because it lacks capability, but because its complexity is undermining the core operational value customers originally bought it for.**
+
+The strategic risk is clear: **feature depth stops being a competitive advantage when it slows the primary job-to-be-done.**
+
+---
 
 ## 3. The moment of misery
 
-_The specific point where the product fails the user, forcing a manual workaround (Google, spreadsheets, group texts, a competitor)._
+**Persona:** Fleet Coordinator
 
-> The user is currently forced to…
+Fleet Coordinators need to monitor fleet conditions, resolve exceptions, complete compliance, and communicate changes quickly.
+
+Today, the system fails them at the exact moment speed matters most: maps can lag, GPS/status information can be unreliable, and routine actions require multiple screens and interactions.
+
+> **The user is currently forced to leave RouteLogic and cross-check Google Maps, spreadsheets, and direct driver communication before making time-critical decisions.**
+
+The result is fragmented execution, duplicated effort, lower trust in RouteLogic as the operational source of truth, and a growing dependency on shadow workflows.
+
+---
 
 ## 4. Problem hook
 
-_One urgent sentence fusing the business risk and the user pain, your pitch for why this is the most important thing to work on right now._
+> **RouteLogic's expanding all-in-one platform has created a gap between enterprise power and frontline usability, where 95% of daily users struggle with speed and efficiency. As coordinators increasingly rely on Google Maps, spreadsheets, and calls to execute time-critical work, core product utility is eroding and churn risk is rising.**
 
-> We must solve [business risk] by addressing [user pain]…
+**Product decision:** We should not solve this by adding another layer of functionality. We must restore speed and trust at the point of execution while preserving enterprise depth in the background.
+
+---
 
 ## 5. Value proposition
 
-_Who it's for, the new value, and why it's urgent to launch now._
+> **For Fleet Coordinators, RouteLogic Velocity provides a fast, clutter-free dispatch experience that enables real-time decisions in seconds instead of minutes. By removing unnecessary complexity while preserving enterprise capabilities in the background, Velocity eliminates manual workarounds, restores trust in RouteLogic as the system of action, and reduces churn risk.**
 
-> For **[who]**, we will **[value]** because **[urgent why]**.
+**Why now:** Simpler competitors are turning RouteLogic's historical strength—feature breadth—into a competitive vulnerability. Velocity allows us to defend enterprise differentiation without forcing frontline users to absorb its complexity.
+
+---
 
 ## 6. Cold-read self-review
 
-_Read your hook back as a skeptical stakeholder. If you don't feel the urgency, that's your data._
-
 | Question | Your answer |
 |---|---|
-| Is the business risk high-stakes enough to justify a new initiative? | _____ |
-| Is the moment of misery systemic, or just an edge case? | _____ |
-| Does the value proposition actually remove the obstacle? | _____ |
+| Is the business risk high-stakes enough to justify a new initiative? | **Yes.** The issue directly threatens retention and competitive position: customers are considering simpler alternatives because operational complexity is reducing the value of the existing platform. |
+| Is the moment of misery systemic, or just an edge case? | **Systemic.** Interviews repeatedly surface latency, feature bloat, excessive workflow steps, poor real-time trust, and external workarounds across different fleet sizes, roles, and operating environments. |
+| Does the value proposition actually remove the obstacle? | **Yes.** Velocity targets the execution layer directly: fewer steps, less clutter, in-flow compliance, and faster access to operational information—without removing enterprise functionality required by managers and the business. |
 
-## 7. Finalized hypothesis _(complete in Module 3)_
+---
 
-> Based on [qual + quant evidence], I believe that [solving X] for [persona] will result in [outcome], as measured by a [X%] change in [success metric]. I will protect [guardrail metric] and make a go/no-go decision after [decision window].
+## 7. Finalized hypothesis
 
-## Link to full artifact
+> **Based on UXR evidence of workflow complexity and manual workarounds, combined with a 48% baseline completion rate past the compliance step, I believe that introducing the One-Click Compliance Checklist for Fleet Coordinators will result in faster in-platform execution and reduced manual workarounds, as measured by a +15 percentage-point improvement in workflow completion past compliance, from 48% to 63%. I will protect real-time data accuracy—GPS accuracy ≥95% and driver-status sync errors ≤2%—and make a go/no-go decision after a 4-week experiment.**
 
-_[link to your Problem Hook Builder export]_
+### Decision criteria
+
+- **SHIP:** Workflow completion improves by ≥15 percentage points at `p < 0.05`, with guardrails intact.
+- **ITERATE:** Direction is positive, but improvement does not clear the +15pp MDE.
+- **KILL:** Workflow completion shows no improvement or moves negatively.
+- **Decision window:** 4 weeks; no early read that changes the pre-defined decision criteria.
+
+---
+
+## 8. Strategic takeaway
+
+**RouteLogic became powerful by adding more. Velocity tests whether it can become more valuable by knowing what to remove.**
+
+The strategic bet is not to make RouteLogic less capable. It is to ensure enterprise complexity is available **when needed**, rather than imposed on every frontline interaction.
+
+---
